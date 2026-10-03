@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <title>Rating Component</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="card bg-light shadow-lg rounded-4 border-0">
-        <div class="card-body">
-          <div class="row p-5">
-            <div class="col-7">
-              <h2>What others think about the product</h2>
-            </div>
-            <div class="col-5">
-              <div class="card mt-5">
-                <div class="card-body text-center ">
-                  <h3 class="display-5 fw-semibold"><i class="fa-sharp fa-solid fa-star text-warning"></i>4.8</h3>
-                  <p>Average Rating</p>
-                </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Rating Component</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card bg-light shadow-lg rounded-4 border-0">
+      <div class="card-body">
+        <!-- Rating Summary -->
+        <div class="row p-5">
+          <div class="col-7">
+            <h2>What others think about the product</h2>
+          </div>
+          <div class="col-5">
+            <div class="card mt-5">
+              <div class="card-body text-center ">
+                <h3 class="display-5 fw-semibold"><i class=" fa-sharp fa-solid fa-star text-warning"></i>4.8</h3>
+                <p>Average Rating</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <!-- Search Review -->
+        <div class="row">
+          <div class="col-12">
+            <div class="input-group input-group-lg">
+            <span class="input-group-text rounded-start-5"><i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <input type="text" class="form-control rounded-end-5" placeholder="Search Reviews">
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
